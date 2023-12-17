@@ -7,3 +7,8 @@ src/**.js
 coverage
 *.log
 yarn.lock
+
+/text-resources
+/generate/out
+
+.DS_Store

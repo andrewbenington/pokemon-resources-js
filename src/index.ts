@@ -1,1 +1,3 @@
-export * from './lib/number';
+export * from './items';
+export * from './locations';
+export * from './other';
