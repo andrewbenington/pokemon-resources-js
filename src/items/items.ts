@@ -2483,6 +2483,82 @@ export enum Item {
     FreshStartMochi,
     RotoStick,
     GlimmeringCharm,
+    MetalAlloy,
+    IndigoStyleCard,
+    OddishLeaf,
+    TentacoolStinger,
+    DoduoDown,
+    SeelFur,
+    ExeggcuteShell,
+    TyrogueSweat,
+    RhyhornFang,
+    HorseaInk,
+    ElekidFur,
+    MagbyHair,
+    LaprasTeardrop,
+    PorygonFragment,
+    ChinchouSparks,
+    SnubbullHair,
+    SkarmoryFeather,
+    SmearglePaint,
+    PlusleFur,
+    MinunFur,
+    TrapinchShell,
+    BeldumClaw,
+    CranidosSpike,
+    ShieldonClaw,
+    BlitzleManeHair,
+    DrilburClaw,
+    CottoneeFluff,
+    ScraggySweat,
+    MinccinoFur,
+    SolosisGel,
+    JoltikThread,
+    GolettShard,
+    EspurrFur,
+    InkayInk,
+    PikipekFeather,
+    DewpiderThread,
+    ComfeyFlower,
+    MiniorShell,
+    MilceryCream,
+    DuraludonTarnish,
+    ArticunoTreat,
+    ZapdosTreat,
+    MoltresTreat,
+    RaikouTreat,
+    EnteiTreat,
+    SuicuneTreat,
+    LugiaTreat,
+    HoOhTreat,
+    LatiasTreat,
+    LatiosTreat,
+    KyogreTreat,
+    GroudonTreat,
+    RayquazaTreat,
+    CobalionTreat,
+    TerrakionTreat,
+    VirizionTreat,
+    ReshiramTreat,
+    ZekromTreat,
+    KyuremTreat,
+    SolgaleoTreat,
+    LunalaTreat,
+    NecrozmaTreat,
+    KubfuTreat,
+    GlastrierTreat,
+    SpectrierTreat,
+    IndigoDisk,
+    FieryPick,
+    StellarTeraShard,
+    MythicalPechaBerry,
+    BlueberryTablecloth,
+    BlueberryChairs,
+    SynchroMachine,
+    Meteorite_4,
+    ScarletBook_1,
+    VioletBook_1,
+    BriarsBook,
 }
 export function ItemToString(item: Item): string {
     switch (item) {
@@ -7450,6 +7526,158 @@ export function ItemToString(item: Item): string {
             return 'Roto-Stick'
         case Item.GlimmeringCharm:
             return 'Glimmering Charm'
+        case Item.MetalAlloy:
+            return 'Metal Alloy'
+        case Item.IndigoStyleCard:
+            return 'Indigo Style Card'
+        case Item.OddishLeaf:
+            return 'Oddish Leaf'
+        case Item.TentacoolStinger:
+            return 'Tentacool Stinger'
+        case Item.DoduoDown:
+            return 'Doduo Down'
+        case Item.SeelFur:
+            return 'Seel Fur'
+        case Item.ExeggcuteShell:
+            return 'Exeggcute Shell'
+        case Item.TyrogueSweat:
+            return 'Tyrogue Sweat'
+        case Item.RhyhornFang:
+            return 'Rhyhorn Fang'
+        case Item.HorseaInk:
+            return 'Horsea Ink'
+        case Item.ElekidFur:
+            return 'Elekid Fur'
+        case Item.MagbyHair:
+            return 'Magby Hair'
+        case Item.LaprasTeardrop:
+            return 'Lapras Teardrop'
+        case Item.PorygonFragment:
+            return 'Porygon Fragment'
+        case Item.ChinchouSparks:
+            return 'Chinchou Sparks'
+        case Item.SnubbullHair:
+            return 'Snubbull Hair'
+        case Item.SkarmoryFeather:
+            return 'Skarmory Feather'
+        case Item.SmearglePaint:
+            return 'Smeargle Paint'
+        case Item.PlusleFur:
+            return 'Plusle Fur'
+        case Item.MinunFur:
+            return 'Minun Fur'
+        case Item.TrapinchShell:
+            return 'Trapinch Shell'
+        case Item.BeldumClaw:
+            return 'Beldum Claw'
+        case Item.CranidosSpike:
+            return 'Cranidos Spike'
+        case Item.ShieldonClaw:
+            return 'Shieldon Claw'
+        case Item.BlitzleManeHair:
+            return 'Blitzle Mane Hair'
+        case Item.DrilburClaw:
+            return 'Drilbur Claw'
+        case Item.CottoneeFluff:
+            return 'Cottonee Fluff'
+        case Item.ScraggySweat:
+            return 'Scraggy Sweat'
+        case Item.MinccinoFur:
+            return 'Minccino Fur'
+        case Item.SolosisGel:
+            return 'Solosis Gel'
+        case Item.JoltikThread:
+            return 'Joltik Thread'
+        case Item.GolettShard:
+            return 'Golett Shard'
+        case Item.EspurrFur:
+            return 'Espurr Fur'
+        case Item.InkayInk:
+            return 'Inkay Ink'
+        case Item.PikipekFeather:
+            return 'Pikipek Feather'
+        case Item.DewpiderThread:
+            return 'Dewpider Thread'
+        case Item.ComfeyFlower:
+            return 'Comfey Flower'
+        case Item.MiniorShell:
+            return 'Minior Shell'
+        case Item.MilceryCream:
+            return 'Milcery Cream'
+        case Item.DuraludonTarnish:
+            return 'Duraludon Tarnish'
+        case Item.ArticunoTreat:
+            return 'Articuno Treat'
+        case Item.ZapdosTreat:
+            return 'Zapdos Treat'
+        case Item.MoltresTreat:
+            return 'Moltres Treat'
+        case Item.RaikouTreat:
+            return 'Raikou Treat'
+        case Item.EnteiTreat:
+            return 'Entei Treat'
+        case Item.SuicuneTreat:
+            return 'Suicune Treat'
+        case Item.LugiaTreat:
+            return 'Lugia Treat'
+        case Item.HoOhTreat:
+            return 'Ho-Oh Treat'
+        case Item.LatiasTreat:
+            return 'Latias Treat'
+        case Item.LatiosTreat:
+            return 'Latios Treat'
+        case Item.KyogreTreat:
+            return 'Kyogre Treat'
+        case Item.GroudonTreat:
+            return 'Groudon Treat'
+        case Item.RayquazaTreat:
+            return 'Rayquaza Treat'
+        case Item.CobalionTreat:
+            return 'Cobalion Treat'
+        case Item.TerrakionTreat:
+            return 'Terrakion Treat'
+        case Item.VirizionTreat:
+            return 'Virizion Treat'
+        case Item.ReshiramTreat:
+            return 'Reshiram Treat'
+        case Item.ZekromTreat:
+            return 'Zekrom Treat'
+        case Item.KyuremTreat:
+            return 'Kyurem Treat'
+        case Item.SolgaleoTreat:
+            return 'Solgaleo Treat'
+        case Item.LunalaTreat:
+            return 'Lunala Treat'
+        case Item.NecrozmaTreat:
+            return 'Necrozma Treat'
+        case Item.KubfuTreat:
+            return 'Kubfu Treat'
+        case Item.GlastrierTreat:
+            return 'Glastrier Treat'
+        case Item.SpectrierTreat:
+            return 'Spectrier Treat'
+        case Item.IndigoDisk:
+            return 'Indigo Disk'
+        case Item.FieryPick:
+            return 'Fiery Pick'
+        case Item.StellarTeraShard:
+            return 'Stellar Tera Shard'
+        case Item.MythicalPechaBerry:
+            return 'Mythical Pecha Berry'
+        case Item.BlueberryTablecloth:
+            return 'Blueberry Tablecloth'
+        case Item.BlueberryChairs:
+            return 'Blueberry Chairs'
+        case Item.SynchroMachine:
+            return 'Synchro Machine'
+        case Item.Meteorite_4:
+            return 'Meteorite'
+        case Item.ScarletBook_1:
+            return 'Scarlet Book'
+        case Item.VioletBook_1:
+            return 'Violet Book'
+        case Item.BriarsBook:
+            return 'Briar\u2019s Book'
         default:
             return ''
     }
@@ -11864,6 +12092,152 @@ export function ItemFromString(item: string): Item {
             return Item.RotoStick
         case 'Glimmering Charm':
             return Item.GlimmeringCharm
+        case 'Metal Alloy':
+            return Item.MetalAlloy
+        case 'Indigo Style Card':
+            return Item.IndigoStyleCard
+        case 'Oddish Leaf':
+            return Item.OddishLeaf
+        case 'Tentacool Stinger':
+            return Item.TentacoolStinger
+        case 'Doduo Down':
+            return Item.DoduoDown
+        case 'Seel Fur':
+            return Item.SeelFur
+        case 'Exeggcute Shell':
+            return Item.ExeggcuteShell
+        case 'Tyrogue Sweat':
+            return Item.TyrogueSweat
+        case 'Rhyhorn Fang':
+            return Item.RhyhornFang
+        case 'Horsea Ink':
+            return Item.HorseaInk
+        case 'Elekid Fur':
+            return Item.ElekidFur
+        case 'Magby Hair':
+            return Item.MagbyHair
+        case 'Lapras Teardrop':
+            return Item.LaprasTeardrop
+        case 'Porygon Fragment':
+            return Item.PorygonFragment
+        case 'Chinchou Sparks':
+            return Item.ChinchouSparks
+        case 'Snubbull Hair':
+            return Item.SnubbullHair
+        case 'Skarmory Feather':
+            return Item.SkarmoryFeather
+        case 'Smeargle Paint':
+            return Item.SmearglePaint
+        case 'Plusle Fur':
+            return Item.PlusleFur
+        case 'Minun Fur':
+            return Item.MinunFur
+        case 'Trapinch Shell':
+            return Item.TrapinchShell
+        case 'Beldum Claw':
+            return Item.BeldumClaw
+        case 'Cranidos Spike':
+            return Item.CranidosSpike
+        case 'Shieldon Claw':
+            return Item.ShieldonClaw
+        case 'Blitzle Mane Hair':
+            return Item.BlitzleManeHair
+        case 'Drilbur Claw':
+            return Item.DrilburClaw
+        case 'Cottonee Fluff':
+            return Item.CottoneeFluff
+        case 'Scraggy Sweat':
+            return Item.ScraggySweat
+        case 'Minccino Fur':
+            return Item.MinccinoFur
+        case 'Solosis Gel':
+            return Item.SolosisGel
+        case 'Joltik Thread':
+            return Item.JoltikThread
+        case 'Golett Shard':
+            return Item.GolettShard
+        case 'Espurr Fur':
+            return Item.EspurrFur
+        case 'Inkay Ink':
+            return Item.InkayInk
+        case 'Pikipek Feather':
+            return Item.PikipekFeather
+        case 'Dewpider Thread':
+            return Item.DewpiderThread
+        case 'Comfey Flower':
+            return Item.ComfeyFlower
+        case 'Minior Shell':
+            return Item.MiniorShell
+        case 'Milcery Cream':
+            return Item.MilceryCream
+        case 'Duraludon Tarnish':
+            return Item.DuraludonTarnish
+        case 'Articuno Treat':
+            return Item.ArticunoTreat
+        case 'Zapdos Treat':
+            return Item.ZapdosTreat
+        case 'Moltres Treat':
+            return Item.MoltresTreat
+        case 'Raikou Treat':
+            return Item.RaikouTreat
+        case 'Entei Treat':
+            return Item.EnteiTreat
+        case 'Suicune Treat':
+            return Item.SuicuneTreat
+        case 'Lugia Treat':
+            return Item.LugiaTreat
+        case 'Ho-Oh Treat':
+            return Item.HoOhTreat
+        case 'Latias Treat':
+            return Item.LatiasTreat
+        case 'Latios Treat':
+            return Item.LatiosTreat
+        case 'Kyogre Treat':
+            return Item.KyogreTreat
+        case 'Groudon Treat':
+            return Item.GroudonTreat
+        case 'Rayquaza Treat':
+            return Item.RayquazaTreat
+        case 'Cobalion Treat':
+            return Item.CobalionTreat
+        case 'Terrakion Treat':
+            return Item.TerrakionTreat
+        case 'Virizion Treat':
+            return Item.VirizionTreat
+        case 'Reshiram Treat':
+            return Item.ReshiramTreat
+        case 'Zekrom Treat':
+            return Item.ZekromTreat
+        case 'Kyurem Treat':
+            return Item.KyuremTreat
+        case 'Solgaleo Treat':
+            return Item.SolgaleoTreat
+        case 'Lunala Treat':
+            return Item.LunalaTreat
+        case 'Necrozma Treat':
+            return Item.NecrozmaTreat
+        case 'Kubfu Treat':
+            return Item.KubfuTreat
+        case 'Glastrier Treat':
+            return Item.GlastrierTreat
+        case 'Spectrier Treat':
+            return Item.SpectrierTreat
+        case 'Indigo Disk':
+            return Item.IndigoDisk
+        case 'Fiery Pick':
+            return Item.FieryPick
+        case 'Stellar Tera Shard':
+            return Item.StellarTeraShard
+        case 'Mythical Pecha Berry':
+            return Item.MythicalPechaBerry
+        case 'Blueberry Tablecloth':
+            return Item.BlueberryTablecloth
+        case 'Blueberry Chairs':
+            return Item.BlueberryChairs
+        case 'Synchro Machine':
+            return Item.SynchroMachine
+        case 'Briar\u2019s Book':
+            return Item.BriarsBook
         default:
             return Item.None
     }

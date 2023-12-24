@@ -169,8 +169,8 @@ export const GenerateEnumFromTextFile = (
   codeFile: string,
   getKeyAndStr: ((line: string) => { key: string; str: string }) | undefined
 ) => {
-  console.log(`generating ${codeFile} from ${textFile}...`);
-  const outputFilePath = `${process.cwd()}/src/lib/${codeFile}`;
+  const outputFilePath = `${process.cwd()}/src/${codeFile}`;
+  console.log(`generating ${outputFilePath} from ${textFile}...`);
   const resultFile = ts.createSourceFile(
     outputFilePath,
     '',

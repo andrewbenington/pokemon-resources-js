@@ -18,7 +18,7 @@ set-version:
 
 generate/out/generate.js: generate/generate.ts generate/syncPKHexResources.ts generate/enums.ts generate/parseFunctions/*
 	@echo "compiling generate/*.ts..."
-	@cd generate && tsc
+	@cd generate && npx tsc
 
 .PHONY: generate
 generate: generate/out/generate.js
@@ -28,7 +28,7 @@ generate: generate/out/generate.js
 
 generate/out/syncPKHexResources.js: generate/syncPKHexResources.ts
 	@echo "compiling generate/syncPKHexResources.ts..."
-	@cd generate && tsc
+	@cd generate && npx tsc
 
 .PHONY: sync-resources
 sync-resources: generate/out

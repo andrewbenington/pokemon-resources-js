@@ -308,6 +308,10 @@ export enum Ability {
     EmbodyAspect_3,
     ToxicChain,
     SupersweetSyrup,
+    TeraShift,
+    TeraShell,
+    TeraformZero,
+    PoisonPuppeteer,
 }
 export function AbilityToString(item: Ability): string {
     switch (item) {
@@ -925,6 +929,14 @@ export function AbilityToString(item: Ability): string {
             return 'Toxic Chain'
         case Ability.SupersweetSyrup:
             return 'Supersweet Syrup'
+        case Ability.TeraShift:
+            return 'Tera Shift'
+        case Ability.TeraShell:
+            return 'Tera Shell'
+        case Ability.TeraformZero:
+            return 'Teraform Zero'
+        case Ability.PoisonPuppeteer:
+            return 'Poison Puppeteer'
         default:
             return ''
     }
@@ -1537,6 +1549,14 @@ export function AbilityFromString(item: string): Ability {
             return Ability.ToxicChain
         case 'Supersweet Syrup':
             return Ability.SupersweetSyrup
+        case 'Tera Shift':
+            return Ability.TeraShift
+        case 'Tera Shell':
+            return Ability.TeraShell
+        case 'Teraform Zero':
+            return Ability.TeraformZero
+        case 'Poison Puppeteer':
+            return Ability.PoisonPuppeteer
         default:
             return Ability.Unknown
     }
