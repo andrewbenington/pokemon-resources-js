@@ -27,8 +27,17 @@ import { Gen8SinnohLocations } from './gen8-sinnoh'
 import { Gen9Locations } from './gen9'
 
 export const getLocationString = (game: number, index: number, format: string, egg = false) => {
+    if (game <= GameOfOrigin.White && index === 30001) {
+        return "at the Poké Transfer Lab"
+    }
+
+    if (game === GameOfOrigin.GO) {
+        return "in Pokémon GO"
+    }
+
     let multiplier = 10000
     let locations: { [key: number]: string[] } = {}
+
     if (game >= GameOfOrigin.Red && game <= GameOfOrigin.Crystal) {
         locations = Gen2Locations
     } else if (format === 'PB7') {
@@ -81,7 +90,11 @@ export const getLocationString = (game: number, index: number, format: string, e
         if (egg) {
             return `from ${locationBlock[index % multiplier]}`
         }
-        return `in ${locationBlock[index % multiplier]}`
+        const location = locationBlock[index % multiplier]
+        if (location.startsWith("Route")) {
+            return `on ${location}`
+        }
+        return `in ${location}`
     }
     return index.toString()
 }
