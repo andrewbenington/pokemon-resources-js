@@ -7,7 +7,7 @@ export enum ItemGen2 {
     BrightPowder,
     GreatBall,
     PokeBall,
-    Terusama0,
+    TeruSama0,
     Bicycle,
     MoonStone,
     Antidote,
@@ -26,7 +26,7 @@ export enum ItemGen2 {
     FireStone,
     ThunderStone,
     WaterStone,
-    Terusama1,
+    TeruSama1,
     HPUp,
     Protein,
     Iron,
@@ -46,18 +46,18 @@ export enum ItemGen2 {
     SuperRepel,
     MaxRepel,
     DireHit,
-    Terusama2,
+    TeruSama2,
     FreshWater,
     SodaPop,
     Lemonade,
     XAttack,
-    Terusama3,
+    TeruSama3,
     XDefend,
     XSpeed,
     XSpecial,
     CoinCase,
     Itemfinder,
-    Terusama4,
+    TeruSama4,
     ExpShare,
     OldRod,
     GoodRod,
@@ -91,7 +91,7 @@ export enum ItemGen2 {
     BigMushroom,
     SilverPowder,
     BluApricorn,
-    Terusama5,
+    TeruSama5,
     AmuletCoin,
     YlwApricorn,
     GrnApricorn,
@@ -101,7 +101,7 @@ export enum ItemGen2 {
     WhtApricorn,
     BlackBelt,
     BlkApricorn,
-    Terusama6,
+    TeruSama6,
     PnkApricorn,
     BlackGlasses,
     SlowpokeTail,
@@ -121,7 +121,7 @@ export enum ItemGen2 {
     MiracleSeed,
     ThickClub,
     FocusBand,
-    Terusama7,
+    TeruSama7,
     EnergyPowder,
     EnergyRoot,
     HealPowder,
@@ -136,34 +136,34 @@ export enum ItemGen2 {
     StarPiece,
     BasementKey,
     Pass,
-    Terusama8,
-    Terusama9,
-    Terusama10,
+    TeruSama8,
+    TeruSama9,
+    TeruSama10,
     Charcoal,
     BerryJuice,
     ScopeLens,
-    Terusama11,
-    Terusama12,
+    TeruSama11,
+    TeruSama12,
     MetalCoat,
     DragonFang,
-    Terusama13,
+    TeruSama13,
     Leftovers,
-    Terusama14,
-    Terusama15,
-    Terusama16,
+    TeruSama14,
+    TeruSama15,
+    TeruSama16,
     MysteryBerry,
     DragonScale,
     BerserkGene,
-    Terusama17,
-    Terusama18,
-    Terusama19,
+    TeruSama17,
+    TeruSama18,
+    TeruSama19,
     SacredAsh,
     HeavyBall,
     FlowerMail,
     LevelBall,
     LureBall,
     FastBall,
-    Terusama20,
+    TeruSama20,
     LightBall,
     FriendBall,
     MoonBall,
@@ -172,15 +172,15 @@ export enum ItemGen2 {
     GorgeousBox,
     SunStone,
     PolkadotBow,
-    Terusama21,
+    TeruSama21,
     UpGrade,
     Berry,
     GoldBerry,
     SquirtBottle,
-    Terusama22,
+    TeruSama22,
     ParkBall,
     RainbowWing,
-    Terusama23,
+    TeruSama23,
     BrickPiece,
     SurfMail,
     Litebluemail,
@@ -191,7 +191,7 @@ export enum ItemGen2 {
     BlueskyMail,
     MusicMail,
     MirageMail,
-    Terusama24,
+    TeruSama24,
     TM01,
     TM02,
     TM03,
@@ -271,7 +271,7 @@ export function ItemGen2ToString(item: ItemGen2): string {
             return 'Great Ball'
         case ItemGen2.PokeBall:
             return 'Pok\u00E9 Ball'
-        case ItemGen2.Terusama0:
+        case ItemGen2.TeruSama0:
             return 'Teru-sama (0)'
         case ItemGen2.Bicycle:
             return 'Bicycle'
@@ -309,7 +309,7 @@ export function ItemGen2ToString(item: ItemGen2): string {
             return 'Thunder Stone'
         case ItemGen2.WaterStone:
             return 'Water Stone'
-        case ItemGen2.Terusama1:
+        case ItemGen2.TeruSama1:
             return 'Teru-sama (1)'
         case ItemGen2.HPUp:
             return 'HP Up'
@@ -349,7 +349,7 @@ export function ItemGen2ToString(item: ItemGen2): string {
             return 'Max Repel'
         case ItemGen2.DireHit:
             return 'Dire Hit'
-        case ItemGen2.Terusama2:
+        case ItemGen2.TeruSama2:
             return 'Teru-sama (2)'
         case ItemGen2.FreshWater:
             return 'Fresh Water'
@@ -359,7 +359,7 @@ export function ItemGen2ToString(item: ItemGen2): string {
             return 'Lemonade'
         case ItemGen2.XAttack:
             return 'X Attack'
-        case ItemGen2.Terusama3:
+        case ItemGen2.TeruSama3:
             return 'Teru-sama (3)'
         case ItemGen2.XDefend:
             return 'X Defend'
@@ -371,7 +371,7 @@ export function ItemGen2ToString(item: ItemGen2): string {
             return 'Coin Case'
         case ItemGen2.Itemfinder:
             return 'Itemfinder'
-        case ItemGen2.Terusama4:
+        case ItemGen2.TeruSama4:
             return 'Teru-sama (4)'
         case ItemGen2.ExpShare:
             return 'Exp Share'
@@ -439,7 +439,7 @@ export function ItemGen2ToString(item: ItemGen2): string {
             return 'SilverPowder'
         case ItemGen2.BluApricorn:
             return 'Blu Apricorn'
-        case ItemGen2.Terusama5:
+        case ItemGen2.TeruSama5:
             return 'Teru-sama (5)'
         case ItemGen2.AmuletCoin:
             return 'Amulet Coin'
@@ -459,7 +459,7 @@ export function ItemGen2ToString(item: ItemGen2): string {
             return 'Black Belt'
         case ItemGen2.BlkApricorn:
             return 'Blk Apricorn'
-        case ItemGen2.Terusama6:
+        case ItemGen2.TeruSama6:
             return 'Teru-sama (6)'
         case ItemGen2.PnkApricorn:
             return 'Pnk Apricorn'
@@ -499,7 +499,7 @@ export function ItemGen2ToString(item: ItemGen2): string {
             return 'Thick Club'
         case ItemGen2.FocusBand:
             return 'Focus Band'
-        case ItemGen2.Terusama7:
+        case ItemGen2.TeruSama7:
             return 'Teru-sama (7)'
         case ItemGen2.EnergyPowder:
             return 'EnergyPowder'
@@ -529,11 +529,11 @@ export function ItemGen2ToString(item: ItemGen2): string {
             return 'Basement Key'
         case ItemGen2.Pass:
             return 'Pass'
-        case ItemGen2.Terusama8:
+        case ItemGen2.TeruSama8:
             return 'Teru-sama (8)'
-        case ItemGen2.Terusama9:
+        case ItemGen2.TeruSama9:
             return 'Teru-sama (9)'
-        case ItemGen2.Terusama10:
+        case ItemGen2.TeruSama10:
             return 'Teru-sama (10)'
         case ItemGen2.Charcoal:
             return 'Charcoal'
@@ -541,23 +541,23 @@ export function ItemGen2ToString(item: ItemGen2): string {
             return 'Berry Juice'
         case ItemGen2.ScopeLens:
             return 'Scope Lens'
-        case ItemGen2.Terusama11:
+        case ItemGen2.TeruSama11:
             return 'Teru-sama (11)'
-        case ItemGen2.Terusama12:
+        case ItemGen2.TeruSama12:
             return 'Teru-sama (12)'
         case ItemGen2.MetalCoat:
             return 'Metal Coat'
         case ItemGen2.DragonFang:
             return 'Dragon Fang'
-        case ItemGen2.Terusama13:
+        case ItemGen2.TeruSama13:
             return 'Teru-sama (13)'
         case ItemGen2.Leftovers:
             return 'Leftovers'
-        case ItemGen2.Terusama14:
+        case ItemGen2.TeruSama14:
             return 'Teru-sama (14)'
-        case ItemGen2.Terusama15:
+        case ItemGen2.TeruSama15:
             return 'Teru-sama (15)'
-        case ItemGen2.Terusama16:
+        case ItemGen2.TeruSama16:
             return 'Teru-sama (16)'
         case ItemGen2.MysteryBerry:
             return 'MysteryBerry'
@@ -565,11 +565,11 @@ export function ItemGen2ToString(item: ItemGen2): string {
             return 'Dragon Scale'
         case ItemGen2.BerserkGene:
             return 'Berserk Gene'
-        case ItemGen2.Terusama17:
+        case ItemGen2.TeruSama17:
             return 'Teru-sama (17)'
-        case ItemGen2.Terusama18:
+        case ItemGen2.TeruSama18:
             return 'Teru-sama (18)'
-        case ItemGen2.Terusama19:
+        case ItemGen2.TeruSama19:
             return 'Teru-sama (19)'
         case ItemGen2.SacredAsh:
             return 'Sacred Ash'
@@ -583,7 +583,7 @@ export function ItemGen2ToString(item: ItemGen2): string {
             return 'Lure Ball'
         case ItemGen2.FastBall:
             return 'Fast Ball'
-        case ItemGen2.Terusama20:
+        case ItemGen2.TeruSama20:
             return 'Teru-sama (20)'
         case ItemGen2.LightBall:
             return 'Light Ball'
@@ -601,7 +601,7 @@ export function ItemGen2ToString(item: ItemGen2): string {
             return 'Sun Stone'
         case ItemGen2.PolkadotBow:
             return 'Polkadot Bow'
-        case ItemGen2.Terusama21:
+        case ItemGen2.TeruSama21:
             return 'Teru-sama (21)'
         case ItemGen2.UpGrade:
             return 'Up-Grade'
@@ -611,13 +611,13 @@ export function ItemGen2ToString(item: ItemGen2): string {
             return 'Gold Berry'
         case ItemGen2.SquirtBottle:
             return 'SquirtBottle'
-        case ItemGen2.Terusama22:
+        case ItemGen2.TeruSama22:
             return 'Teru-sama (22)'
         case ItemGen2.ParkBall:
             return 'Park Ball'
         case ItemGen2.RainbowWing:
             return 'Rainbow Wing'
-        case ItemGen2.Terusama23:
+        case ItemGen2.TeruSama23:
             return 'Teru-sama (23)'
         case ItemGen2.BrickPiece:
             return 'Brick Piece'
@@ -639,7 +639,7 @@ export function ItemGen2ToString(item: ItemGen2): string {
             return 'Music Mail'
         case ItemGen2.MirageMail:
             return 'Mirage Mail'
-        case ItemGen2.Terusama24:
+        case ItemGen2.TeruSama24:
             return 'Teru-sama (24)'
         case ItemGen2.TM01:
             return 'TM01'
@@ -788,7 +788,7 @@ export function ItemGen2FromString(item: string): ItemGen2 {
         case 'Pok\u00E9 Ball':
             return ItemGen2.PokeBall
         case 'Teru-sama (0)':
-            return ItemGen2.Terusama0
+            return ItemGen2.TeruSama0
         case 'Bicycle':
             return ItemGen2.Bicycle
         case 'Moon Stone':
@@ -826,7 +826,7 @@ export function ItemGen2FromString(item: string): ItemGen2 {
         case 'Water Stone':
             return ItemGen2.WaterStone
         case 'Teru-sama (1)':
-            return ItemGen2.Terusama1
+            return ItemGen2.TeruSama1
         case 'HP Up':
             return ItemGen2.HPUp
         case 'Protein':
@@ -866,7 +866,7 @@ export function ItemGen2FromString(item: string): ItemGen2 {
         case 'Dire Hit':
             return ItemGen2.DireHit
         case 'Teru-sama (2)':
-            return ItemGen2.Terusama2
+            return ItemGen2.TeruSama2
         case 'Fresh Water':
             return ItemGen2.FreshWater
         case 'Soda Pop':
@@ -876,7 +876,7 @@ export function ItemGen2FromString(item: string): ItemGen2 {
         case 'X Attack':
             return ItemGen2.XAttack
         case 'Teru-sama (3)':
-            return ItemGen2.Terusama3
+            return ItemGen2.TeruSama3
         case 'X Defend':
             return ItemGen2.XDefend
         case 'X Speed':
@@ -888,7 +888,7 @@ export function ItemGen2FromString(item: string): ItemGen2 {
         case 'Itemfinder':
             return ItemGen2.Itemfinder
         case 'Teru-sama (4)':
-            return ItemGen2.Terusama4
+            return ItemGen2.TeruSama4
         case 'Exp Share':
             return ItemGen2.ExpShare
         case 'Old Rod':
@@ -956,7 +956,7 @@ export function ItemGen2FromString(item: string): ItemGen2 {
         case 'Blu Apricorn':
             return ItemGen2.BluApricorn
         case 'Teru-sama (5)':
-            return ItemGen2.Terusama5
+            return ItemGen2.TeruSama5
         case 'Amulet Coin':
             return ItemGen2.AmuletCoin
         case 'Ylw Apricorn':
@@ -976,7 +976,7 @@ export function ItemGen2FromString(item: string): ItemGen2 {
         case 'Blk Apricorn':
             return ItemGen2.BlkApricorn
         case 'Teru-sama (6)':
-            return ItemGen2.Terusama6
+            return ItemGen2.TeruSama6
         case 'Pnk Apricorn':
             return ItemGen2.PnkApricorn
         case 'BlackGlasses':
@@ -1016,7 +1016,7 @@ export function ItemGen2FromString(item: string): ItemGen2 {
         case 'Focus Band':
             return ItemGen2.FocusBand
         case 'Teru-sama (7)':
-            return ItemGen2.Terusama7
+            return ItemGen2.TeruSama7
         case 'EnergyPowder':
             return ItemGen2.EnergyPowder
         case 'Energy Root':
@@ -1046,11 +1046,11 @@ export function ItemGen2FromString(item: string): ItemGen2 {
         case 'Pass':
             return ItemGen2.Pass
         case 'Teru-sama (8)':
-            return ItemGen2.Terusama8
+            return ItemGen2.TeruSama8
         case 'Teru-sama (9)':
-            return ItemGen2.Terusama9
+            return ItemGen2.TeruSama9
         case 'Teru-sama (10)':
-            return ItemGen2.Terusama10
+            return ItemGen2.TeruSama10
         case 'Charcoal':
             return ItemGen2.Charcoal
         case 'Berry Juice':
@@ -1058,23 +1058,23 @@ export function ItemGen2FromString(item: string): ItemGen2 {
         case 'Scope Lens':
             return ItemGen2.ScopeLens
         case 'Teru-sama (11)':
-            return ItemGen2.Terusama11
+            return ItemGen2.TeruSama11
         case 'Teru-sama (12)':
-            return ItemGen2.Terusama12
+            return ItemGen2.TeruSama12
         case 'Metal Coat':
             return ItemGen2.MetalCoat
         case 'Dragon Fang':
             return ItemGen2.DragonFang
         case 'Teru-sama (13)':
-            return ItemGen2.Terusama13
+            return ItemGen2.TeruSama13
         case 'Leftovers':
             return ItemGen2.Leftovers
         case 'Teru-sama (14)':
-            return ItemGen2.Terusama14
+            return ItemGen2.TeruSama14
         case 'Teru-sama (15)':
-            return ItemGen2.Terusama15
+            return ItemGen2.TeruSama15
         case 'Teru-sama (16)':
-            return ItemGen2.Terusama16
+            return ItemGen2.TeruSama16
         case 'MysteryBerry':
             return ItemGen2.MysteryBerry
         case 'Dragon Scale':
@@ -1082,11 +1082,11 @@ export function ItemGen2FromString(item: string): ItemGen2 {
         case 'Berserk Gene':
             return ItemGen2.BerserkGene
         case 'Teru-sama (17)':
-            return ItemGen2.Terusama17
+            return ItemGen2.TeruSama17
         case 'Teru-sama (18)':
-            return ItemGen2.Terusama18
+            return ItemGen2.TeruSama18
         case 'Teru-sama (19)':
-            return ItemGen2.Terusama19
+            return ItemGen2.TeruSama19
         case 'Sacred Ash':
             return ItemGen2.SacredAsh
         case 'Heavy Ball':
@@ -1100,7 +1100,7 @@ export function ItemGen2FromString(item: string): ItemGen2 {
         case 'Fast Ball':
             return ItemGen2.FastBall
         case 'Teru-sama (20)':
-            return ItemGen2.Terusama20
+            return ItemGen2.TeruSama20
         case 'Light Ball':
             return ItemGen2.LightBall
         case 'Friend Ball':
@@ -1118,7 +1118,7 @@ export function ItemGen2FromString(item: string): ItemGen2 {
         case 'Polkadot Bow':
             return ItemGen2.PolkadotBow
         case 'Teru-sama (21)':
-            return ItemGen2.Terusama21
+            return ItemGen2.TeruSama21
         case 'Up-Grade':
             return ItemGen2.UpGrade
         case 'Berry':
@@ -1128,13 +1128,13 @@ export function ItemGen2FromString(item: string): ItemGen2 {
         case 'SquirtBottle':
             return ItemGen2.SquirtBottle
         case 'Teru-sama (22)':
-            return ItemGen2.Terusama22
+            return ItemGen2.TeruSama22
         case 'Park Ball':
             return ItemGen2.ParkBall
         case 'Rainbow Wing':
             return ItemGen2.RainbowWing
         case 'Teru-sama (23)':
-            return ItemGen2.Terusama23
+            return ItemGen2.TeruSama23
         case 'Brick Piece':
             return ItemGen2.BrickPiece
         case 'Surf Mail':
@@ -1156,7 +1156,7 @@ export function ItemGen2FromString(item: string): ItemGen2 {
         case 'Mirage Mail':
             return ItemGen2.MirageMail
         case 'Teru-sama (24)':
-            return ItemGen2.Terusama24
+            return ItemGen2.TeruSama24
         case 'TM01':
             return ItemGen2.TM01
         case 'TM02':

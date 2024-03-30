@@ -1,25 +1,31 @@
 enums:
-  - name: Item
-    source: text-resources/items/items.txt
-    dest: items/items.ts
-  - name: ItemGen1
-    source: text-resources/items/gen1.txt
-    dest: items/gen1.ts
-  - name: ItemGen2
-    source: text-resources/items/gen2.txt
-    dest: items/gen2.ts
-  - name: ItemGen3
-    source: text-resources/items/gen3.txt
-    dest: items/gen3.ts
-  - name: ItemGen3Col
-    source: text-resources/items/gen3col.txt
-    dest: items/gen3-colosseum.ts
-  - name: ItemsGen3XD
-    source: text-resources/items/gen3xd.txt
-    dest: items/gen3-xd.ts
-  - name: Ability
-    source: text-resources/other/abilities.txt
-    dest: other/abilities.ts
-  - name: Nature
-    source: text-resources/other/natures.txt
-    dest: other/natures.ts
+    - name: Item
+      source: text-resources/items/items.txt
+      dest: items/items.ts
+    - name: ItemGen1
+      source: text-resources/items/gen1.txt
+      dest: items/gen1.ts
+    - name: ItemGen2
+      source: text-resources/items/gen2.txt
+      dest: items/gen2.ts
+    - name: ItemGen3
+      source: text-resources/items/gen3.txt
+      dest: items/gen3.ts
+    - name: ItemGen3Col
+      source: text-resources/items/gen3col.txt
+      dest: items/gen3-colosseum.ts
+    - name: ItemsGen3XD
+      source: text-resources/items/gen3xd.txt
+      dest: items/gen3-xd.ts
+    - name: Ability
+      source: text-resources/other/abilities.txt
+      dest: other/abilities.ts
+    - name: Nature
+      source: text-resources/other/natures.txt
+      dest: other/natures.ts
+    - name: MemoryLocationGen6
+      source: text-resources/memories/gen6/location.txt
+      dest: memories/gen6/locations.ts
+    - name: MemoryFeelingGen6
+      source: text-resources/memories/gen6/feeling.txt
+      dest: memories/gen6/feelings.ts

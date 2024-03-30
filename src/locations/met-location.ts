@@ -28,11 +28,11 @@ import { Gen9Locations } from './gen9'
 
 export const getLocationString = (game: number, index: number, format: string, egg = false) => {
     if (game <= GameOfOrigin.White && index === 30001) {
-        return "at the Poké Transfer Lab"
+        return 'at the Poké Transfer Lab'
     }
 
     if (game === GameOfOrigin.GO) {
-        return "in Pokémon GO"
+        return 'in Pokémon GO'
     }
 
     let multiplier = 10000
@@ -91,7 +91,7 @@ export const getLocationString = (game: number, index: number, format: string, e
             return `from ${locationBlock[index % multiplier]}`
         }
         const location = locationBlock[index % multiplier]
-        if (location.startsWith("Route")) {
+        if (location.startsWith('Route')) {
             return `on ${location}`
         }
         return `in ${location}`

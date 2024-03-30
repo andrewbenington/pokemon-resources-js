@@ -1256,7 +1256,7 @@ export enum Item {
     WishingPiece,
     CrackedPot,
     ChippedPot,
-    HitechEarbuds,
+    HiTechEarbuds,
     FruitBunch,
     MoomooCheese,
     SpiceMix,
@@ -2476,7 +2476,7 @@ export enum Item {
     PhantumpTwig,
     GrubbinThread,
     CutieflyPowder,
-    JangmooScales,
+    JangmoOScales,
     CramorantDown,
     MorpekoSnack,
     PoltchageistPowder,
@@ -5072,7 +5072,7 @@ export function ItemToString(item: Item): string {
             return 'Cracked Pot'
         case Item.ChippedPot:
             return 'Chipped Pot'
-        case Item.HitechEarbuds:
+        case Item.HiTechEarbuds:
             return 'Hi-tech Earbuds'
         case Item.FruitBunch:
             return 'Fruit Bunch'
@@ -7512,7 +7512,7 @@ export function ItemToString(item: Item): string {
             return 'Grubbin Thread'
         case Item.CutieflyPowder:
             return 'Cutiefly Powder'
-        case Item.JangmooScales:
+        case Item.JangmoOScales:
             return 'Jangmo-o Scales'
         case Item.CramorantDown:
             return 'Cramorant Down'
@@ -9991,7 +9991,7 @@ export function ItemFromString(item: string): Item {
         case 'Chipped Pot':
             return Item.ChippedPot
         case 'Hi-tech Earbuds':
-            return Item.HitechEarbuds
+            return Item.HiTechEarbuds
         case 'Fruit Bunch':
             return Item.FruitBunch
         case 'Moomoo Cheese':
@@ -12079,7 +12079,7 @@ export function ItemFromString(item: string): Item {
         case 'Cutiefly Powder':
             return Item.CutieflyPowder
         case 'Jangmo-o Scales':
-            return Item.JangmooScales
+            return Item.JangmoOScales
         case 'Cramorant Down':
             return Item.CramorantDown
         case 'Morpeko Snack':

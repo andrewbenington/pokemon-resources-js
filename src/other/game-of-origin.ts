@@ -47,20 +47,22 @@ export const GameOfOriginData: readonly (Origin | null)[] = [
     { name: 'Blue/Green', region: 'Kanto', mark: 'GB', logo: 'BlueGreen', index: 36 },
     { name: 'Blue (Japan)', region: 'Kanto', mark: 'GB', logo: 'BlueJP', index: 37 },
     { name: 'Yellow', region: 'Kanto', mark: 'GB', index: 38 },
-    { name: 'Gold', region: 'Johto', mark: 'GB', index: 39},
+    { name: 'Gold', region: 'Johto', mark: 'GB', index: 39 },
     { name: 'Silver', region: 'Johto', mark: 'GB', index: 40 },
     { name: 'Crystal', region: 'Johto', mark: 'GB', index: 41 },
     {
         name: "Let's Go, Pikachu!",
         region: 'Kanto',
         mark: 'LGPE',
-        logo: 'LetsGoPikachu', index: 42
+        logo: 'LetsGoPikachu',
+        index: 42,
     },
     {
         name: "Let's Go, Eevee!",
         region: 'Kanto',
         mark: 'LGPE',
-        logo: 'LetsGoEevee', index: 43
+        logo: 'LetsGoEevee',
+        index: 43,
     },
     { name: 'Sword', region: 'Galar', mark: 'Galar', index: 44 },
     { name: 'Shield', region: 'Galar', mark: 'Galar', index: 45 },
@@ -69,7 +71,8 @@ export const GameOfOriginData: readonly (Origin | null)[] = [
         name: 'Legends: Arceus',
         region: 'Hisui',
         mark: 'LA',
-        logo: 'LegendsArceus', index: 47
+        logo: 'LegendsArceus',
+        index: 47,
     },
     { name: 'Brilliant Diamond', region: 'Sinnoh', mark: 'BDSP', index: 48 },
     { name: 'Shining Pearl', region: 'Sinnoh', mark: 'BDSP', index: 49 },

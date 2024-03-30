@@ -1,4 +1,8 @@
-VERSION=0.2.0
+VERSION=1.0.7
+
+.PHONY: help
+help: ## Display this help.
+	@awk 'BEGIN {FS = ":.*#"; printf "\nUsage:\n  make \033[36m<target>\033[0m\n"} /^[a-zA-Z_0-9-]+:.*?#/ { printf "  \033[36m%-15s\033[0m %s\n", $$1, $$2 } /^#@/ { printf "\n\033[1m%s\033[0m\n", substr($$0, 5) } ' $(MAKEFILE_LIST)
 
 .PHONY: build
 build:
@@ -16,22 +20,15 @@ lint:
 set-version:
 	@npm version $(VERSION) --no-git-tag-version --allow-same-version
 
-generate/out/generate.js: generate/generate.ts generate/syncPKHexResources.ts generate/enums.ts generate/parseFunctions/*
-	@echo "compiling generate/*.ts..."
-	@cd generate && npx tsc
-
 .PHONY: generate
-generate: generate/out/generate.js
+generate:
 	@echo "generating typescript..."
-	@node ./generate/out/generate.js Items text/items/PostGen4.txt items/PostGen4.ts
+	@ts-node ./generate/generate.ts Items text/items/PostGen4.txt items/PostGen4.ts
 	@npx prettier --log-level silent --write src/**/*
 
-generate/out/syncPKHexResources.js: generate/syncPKHexResources.ts
-	@echo "compiling generate/syncPKHexResources.ts..."
-	@cd generate && npx tsc
 
 .PHONY: sync-resources
-sync-resources: generate/out
+sync-resources: # Download text resources from the PKHex repository
 	@echo "syncing PKHex resources..."
 	@npx ts-node ./generate/syncPKHexResources.ts
 	@echo "syncing finished"
