@@ -13,14 +13,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/andrewbenington/node-pokemon-resources.git"
+        "url": "git+https://github.com/andrewbenington/pokemon-resources-js.git"
     },
     "author": "abenington",
-    "license": "ISC",
+    "license": "GPL-3.0-only",
     "bugs": {
-        "url": "https://github.com/andrewbenington/node-pokemon-resources/issues"
+        "url": "https://github.com/andrewbenington/pokemon-resources-js/issues"
     },
-    "homepage": "https://github.com/andrewbenington/node-pokemon-resources#readme",
+    "homepage": "https://github.com/andrewbenington/pokemon-resources-js#readme",
     "devDependencies": {
         "ts-node": "^10.9.2",
         "tsup": "^8.3.0",
