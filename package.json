@@ -22,9 +22,8 @@
     },
     "homepage": "https://github.com/andrewbenington/node-pokemon-resources#readme",
     "devDependencies": {
-        "ava": "^6.0.1",
         "ts-node": "^10.9.2",
-        "tsup": "^8.0.1",
-        "typescript": "<4.8"
+        "tsup": "^8.3.0",
+        "typescript": "^5.6.2"
     }
 }
