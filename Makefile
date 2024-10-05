@@ -1,4 +1,4 @@
-VERSION=1.0.8
+VERSION=1.0.9
 
 .PHONY: help
 help: ## Display this help.
@@ -7,10 +7,6 @@ help: ## Display this help.
 .PHONY: build
 build:
 	@npm run build
-
-.PHONY: cov
-cov:
-	@npm run cov
 
 .PHONY: lint
 lint:
