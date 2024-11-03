@@ -14,7 +14,7 @@ export const GameOfOriginData: readonly (Origin | null)[] = [
     { name: 'Emerald', region: 'Hoenn', index: 3, gameCubeIndex: 10 },
     { name: 'FireRed', region: 'Kanto', index: 4, gameCubeIndex: 1 },
     { name: 'LeafGreen', region: 'Kanto', index: 5, gameCubeIndex: 2 },
-    null,
+    { name: 'Radical Red', region: 'Kanto', 'index': 6, gameCubeIndex: 1},
     { name: 'HeartGold', region: 'Johto', index: 7 },
     { name: 'SoulSilver', region: 'Johto', index: 8 },
     null,
