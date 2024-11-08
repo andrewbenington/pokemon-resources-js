@@ -1,4 +1,4 @@
-# Pokémon Species Data
+# Pokémon Resource Data
 
 JavaScript/TypeScript library containing Pokémon game resources, such as items, moves, and met locations.
 
