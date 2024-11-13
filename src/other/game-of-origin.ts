@@ -102,7 +102,7 @@ export enum GameOfOrigin {
     Emerald,
     FireRed,
     LeafGreen,
-    INVALID_6,
+    RadicalRed,
     HeartGold,
     SoulSilver,
     INVALID_9,
