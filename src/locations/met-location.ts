@@ -91,7 +91,7 @@ export const getLocationString = (game: number, index: number, format: string, e
             return `from ${locationBlock[index % multiplier]}`
         }
         const location = locationBlock[index % multiplier]
-        if (location.startsWith('Route')) {
+        if (location?.startsWith('Route')) {
             return `on ${location}`
         }
         return `in ${location}`
