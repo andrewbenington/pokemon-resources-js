@@ -1,4 +1,4 @@
-VERSION=1.0.11
+VERSION=1.0.12
 
 .PHONY: help
 help: ## Display this help.
@@ -14,6 +14,8 @@ lint:
 
 .PHONY: set-version
 set-version:
+	@jq --arg new_version "$(VERSION)" '.version = "$(VERSION)"' "src-tauri/tauri.conf.json" > version.tmp.json && mv version.tmp.json src-tauri/tauri.conf.json
+	@npx prettier --write src-tauri/tauri.conf.json
 	@npm version $(VERSION) --no-git-tag-version --allow-same-version
 
 .PHONY: generate
