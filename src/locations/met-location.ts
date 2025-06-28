@@ -48,16 +48,19 @@ export const getLocationString = (game: number, index: number, format: string, e
         }
         locations = Gen7KantoLocations
     } else if (format === 'PK8') {
-        if (game < GameOfOrigin.Sword || game > GameOfOrigin.ShiningPearl) {
+        if (game !== GameOfOrigin.Sword && game !== GameOfOrigin.Sword) {
             return game <= GameOfOrigin.LetsGoEevee
                 ? `in the ${GameOfOriginData[game]?.region} region`
                 : 'in a faraway place'
         }
-        if (game >= GameOfOrigin.BrilliantDiamond) {
-            locations = Gen8SinnohLocations
-        } else {
-            locations = Gen8GalarLocations
+        locations = Gen8GalarLocations
+    } else if (format === 'PB8') {
+        if (game !== GameOfOrigin.BrilliantDiamond && game !== GameOfOrigin.ShiningPearl) {
+            return game <= GameOfOrigin.Shield
+                ? `in the ${GameOfOriginData[game]?.region} region`
+                : 'in a faraway place'
         }
+        locations = Gen8SinnohLocations
     } else if (game <= GameOfOrigin.LeafGreen) {
         locations = Gen3GBALocations
     } else if (game === GameOfOrigin.ColosseumXD) {
