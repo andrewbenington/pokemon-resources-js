@@ -14,9 +14,9 @@ lint:
 
 .PHONY: set-version
 set-version:
-	@jq --arg new_version "$(VERSION)" '.version = "$(VERSION)"' "src-tauri/tauri.conf.json" > version.tmp.json && mv version.tmp.json src-tauri/tauri.conf.json
-	@npx prettier --write src-tauri/tauri.conf.json
 	@npm version $(VERSION) --no-git-tag-version --allow-same-version
+	@git add . && git commit -m 'bump version to $(VERSION)'
+	@npm run build
 
 .PHONY: generate
 generate:
